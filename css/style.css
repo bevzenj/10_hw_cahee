@@ -1,0 +1,115 @@
+body {
+    background: #b07cf7;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+.blog-discr-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.blog-discr__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.blog-discr__text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.blog-content {
+    padding: 30px;
+    width: 370px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 12px -158px 75px -41px rgba(0,0,0,0.9) inset;
+}
+
+.first-post {
+    background-image: url("../img/img_1.png");
+}
+
+.second-post {
+    background-image: url("../img/img_2.png");
+    background-position: bottom;
+}
+
+.third-post {
+    background-image: url("../img/img-3.png");
+    background-position: center;
+}
+
+.blog-content:hover {
+    filter: drop-shadow(3px 0px 15px #000000);
+}
+
+.blog-content-date {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background: rgba(0,0,0,0.40);
+    border-radius: 10%;
+}
+
+.date-number {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    padding: 0 15px;
+}
+
+.date-mounth {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content__link:hover {
+    color: #b07cf7
+}
+
+.content-name__title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content-name__author {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.blog-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn {
+    background: #f72a3b;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    box-shadow: 7px 6px 10px 2px rgba(0,0,0,0.73);
+}
+
+.btn:hover {
+    box-shadow: 7px 6px 0px 2px rgba(0,0,0,0.73);
+}
